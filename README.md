@@ -22,6 +22,28 @@
 
 这不是模型安装包，也不会提供或共享任何 Copilot 账号、订阅额度或密钥。
 
+## Copilot CLI 和 WorkBuddy 有什么区别？
+
+如果你还听说过腾讯 **WorkBuddy**，它和 GitHub Copilot CLI 是两个独立产品：
+
+| | GitHub Copilot CLI | Tencent WorkBuddy |
+|---|---|---|
+| 使用界面 | 终端 | 桌面应用和网页版 |
+| 更适合 | 阅读代码、修改仓库、调试和开发工作流 | 文档、表格、研究、办公自动化和多步骤任务 |
+| 账号与计费 | GitHub 账号、Copilot 订阅及 AI Credits | WorkBuddy 账号及独立 Credits |
+| 本仓库支持 | 可以直接安装 | 不能直接安装，只能参考其中的工作流内容 |
+
+WorkBuddy 也支持 Skills 和 MCP，但官方公开的自定义 Skill 结构以
+`skill.yml` 为主，并没有说明可以直接导入本仓库的 `SKILL.md`、`.skill`、
+`AGENTS.md` 或 `~/.copilot` 配置。
+
+如果主要需求是编程和操作代码仓库，建议先使用本 Starter；如果还希望让 AI
+处理文档、数据、演示文稿或其他桌面任务，可以另外安装 WorkBuddy。两个产品可以
+同时使用，但账号、配置和费用互相独立。
+
+详细说明和官方入口见
+[`docs/workbuddy.md`](docs/workbuddy.md)。
+
 ## 三步开始使用
 
 ### 第一步：安装 GitHub Copilot CLI
